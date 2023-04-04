@@ -14,26 +14,66 @@ body{
     display: grid;
     grid-template-rows: 1fr 4fr 6fr;
 }
-.sidebar >div{
-    border: 2px solid red;
-}
+
 .settings{
     padding: 1vh 2em;
 }
 .settings div{
 display: flex;
 align-items: center;
-
+margin-top: 2vh;
 }
 .settings div a{
     text-decoration: none;
-    font-size: 20px;
-    color: white;
+    font-size: 1.3em;
+    color: #f8f7f7;
+    font-weight: 550;
+
 }
 .settings div svg{
     color:white;
-    margin-right: 0.5em;
+    margin-right: 1em;
+}
+.extras div{
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    }
+.extras div a{
+        text-decoration: none;
+        font-size: 1.3em;
+        color: #f8f7f7;
+        font-weight: 550;
+    }
+.extras div svg{
+        color:white;
+        margin-right: 1em;
+    }
+.extras{
+    padding: 1vh 2em;
+
+}
+.title div{
+    display: flex;
+    align-items: center;
+    }
+.title div a{
+        text-decoration: none;
+        font-size: 2em;
+        color: #f8f7f7;
+    }
+.title div svg{
+        color:white;
+        margin-right: 1em;
+    }
+.title{
+    padding: 1vh 2em;
+
 }
 .main{
     background-color: white;
+}
+.extras a:hover,
+.settings a:hover
+{    color: aqua;
 }
