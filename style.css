@@ -10,7 +10,7 @@ body{
     grid-template-columns: 2fr 8fr;
 }
 .sidebar{
-    background-color: rgb(12, 202, 202);
+    background: linear-gradient(45deg,#50C9C3,#96DEDA);
     display: grid;
     grid-template-rows: 1fr 4fr 6fr;
 }
@@ -71,9 +71,79 @@ margin-top: 2vh;
 
 }
 .main{
-    background-color: white;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-rows: 2fr 8fr;
+    
+}
+.search{
+    padding: 1vh 3vw;
+}
+.searchbar{
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.searchbar div{
+    display: flex;
+    align-items: center;
+}
+.bar svg{
+    margin-right: 1vw;
+}
+#search{
+    background-color: rgba(128, 128, 128,0.2);
+    border: transparent;
+    border-radius: 8px;
+    padding: 1vh 0vw;
+    width: 42vw;
+
+}
+.profilec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.upload{
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left svg{
+    margin-right: 0.7vw;
+    border-radius: 20px;
+}
+#p1{
+    font-weight: 500;
+}
+#p2{
+    font-size: 1.7em;
+    font-weight: 550;
 }
 .extras a:hover,
 .settings a:hover
 {    color: aqua;
+}
+.portal{
+    background-color: rgba(153, 151, 151,0.2);
+}
+.right button{
+    background: linear-gradient(45deg,#50C9C3,#96DEDA);
+    border: transparent;
+    border-radius: 12px;
+    color: white;
+    font-size: 1.3em;
+    padding: 5px 0vw;
+    text-align: center;
+    width: 7vw;
+    margin: 0 0.7vw;
 }
