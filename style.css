@@ -214,3 +214,33 @@ margin-top: 2vh;
     width: 7vw;
     margin: 0 0.7vw;
 }
+#rightdiv h1{
+    font-size: 1em;
+}
+#rightdiv p{
+    opacity: 0.6;
+}
+#rightdiv{
+    margin:1em 2em;
+    border-bottom: 2px solid rgba(0, 0, 0,0.2);
+    border-radius: 0px;
+    line-break: strict;
+    
+}
+#rightdivp{
+    display:flex;
+    align-items: center;
+    margin: 0.5em 0em 2em 1.5em;
+}
+#rightdivp svg{
+    border-radius: 12px;
+}
+
+#rightdivp p{
+    opacity: 0.6;
+}
+#spans{
+    font-weight: 550;
+    font-size: 1.05em;
+    opacity: 1;
+}
