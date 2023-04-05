@@ -27,7 +27,7 @@ margin-top: 2vh;
     text-decoration: none;
     font-size: 1.3em;
     color: #f8f7f7;
-    font-weight: 550;
+    font-weight: 500;
 
 }
 .settings div svg{
@@ -129,12 +129,79 @@ margin-top: 2vh;
     font-size: 1.7em;
     font-weight: 550;
 }
+
 .extras a:hover,
 .settings a:hover
 {    color: aqua;
 }
 .portal{
     background-color: rgba(153, 151, 151,0.2);
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+    padding: 1vh 2vw;
+    grid-template-rows: 1fr;
+}
+
+.leftp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 1fr 1fr;
+}
+.leftp div{
+    background-color: white;
+    border-radius: 12px;
+    margin: 0 1vw 1vh 0vw;
+    border-left: 10px solid yellow;
+    padding: 0vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.leftp div h1{
+    font-size: 1em;
+}
+.leftp p{
+    opacity: 0.6;
+}
+#fav{
+    border: transparent;
+    margin-top: 2vh;
+}
+#favo{
+    border: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#favo svg{
+    margin-right: 1vw;
+}
+#titlegrid{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 0;
+    background-color: transparent;
+    font-size: 20px;
+    border: transparent;
+    padding: 0;
+}
+
+.rightp{
+    display: grid;
+    grid-template-rows: 0fr 1fr 0fr 1fr;
+}
+.rightp div{
+    background-color: white;
+    border-radius: 12px;
+}
+#vh{
+    margin-bottom: 1vh;
+}
+#titlegrid2{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    background-color: transparent;
 }
 .right button{
     background: linear-gradient(45deg,#50C9C3,#96DEDA);
